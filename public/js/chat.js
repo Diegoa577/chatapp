@@ -80,7 +80,7 @@ jQuery('#message-form').on('submit', function (e) {
     messageTextbox.val('')
   });
 });
-
+//position
 var locationButton = jQuery('#send-location');
 locationButton.on('click', function () {
   if (!navigator.geolocation) {
